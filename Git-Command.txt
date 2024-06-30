@@ -1,0 +1,35 @@
+cmd
+
+Git - 깃 옵션 명령어 보기
+
+git version  - 깃 버전확인
+
+환경설정
+
+git config --global user.name ebest4429
+
+git config --global user.email ebest4429@gmail.com
+
+github에서 내폴더로 다운로드
+
+git clone https://github.com/ebest4429/Excel-Function
+
+git clone https://github.com/ebest4429/Git--test
+
+폴더로 이동
+cd Excel-Function
+
+파일추가
+git add text.txt
+
+파일삭제
+git commit -m "Delete filename.txt"
+
+로컬 디렉토리는 유지, git저장소에서만 삭제
+git rm --cached filename.txt
+git commit -m "Delete filename.txt" # 삭제 시점의 커밋을 해주어야 한다.
+
+commit
+git commit -m "add text file [text.txt]"
+
+git push
